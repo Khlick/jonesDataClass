@@ -1,0 +1,6 @@
+{
+  "eslint.enable": false,
+  
+  // An explicit start path where the terminal will be launched, this is used as the current working directory (cwd) for the shell process. This may be particularly useful in workspace settings if the root directory is not a convenient cwd.
+  "terminal.integrated.cwd": "G:\\My Drive\\JonesGroup\\jonesDataClass"
+}

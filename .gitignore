@@ -45,3 +45,4 @@ rsconnect/
 ehthumbs.db
 Thumbs.db
 *.ini
+.Rproj.user
