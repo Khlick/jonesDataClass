@@ -1,9 +1,21 @@
 Package: jonesDataClass
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-Depends: R (>= 3.4.3)
-License: What license is it under?
-Encoding: UTF-8
-LazyData: true
+Title: Class Objects To Manage Calcium Imaging Data From Dr. Jones
+Version: 0.1
+Authors@R: person("Khris", "Griffis", email = "khrisgriffis@ucla.edu", role = c("aut", "cre"))
+Description: This package is simple and contains only a few tools for working specifically with the data from Dr. Heather Jones's lab.
+Depends: 
+    R (>= 3.4.0)
+Imports:
+    base,
+    methods,
+    stats,
+    utils,
+    graphics,
+    grDevices,
+    readxl,
+    dplyr,
+    rtiff
+Suggests:
+    viridis
+License: file LICENSE
+RoxygenNote: 6.0.1

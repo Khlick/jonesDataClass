@@ -2,5 +2,22 @@
   "eslint.enable": false,
   
   // An explicit start path where the terminal will be launched, this is used as the current working directory (cwd) for the shell process. This may be particularly useful in workspace settings if the root directory is not a convenient cwd.
-  "terminal.integrated.cwd": "G:\\My Drive\\JonesGroup\\jonesDataClass"
+  "terminal.integrated.cwd": "G:\\My Drive\\JonesGroup\\jonesDataClass",
+
+  // Configure glob patterns for excluding files and folders. For example, the files explorer decides which files and folders to show or hide based on this setting.
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/*.ini": true
+  },
+  "spellright.language": "en",
+  "spellright.documentTypes": [
+    "markdown",
+    "latex",
+    "plaintext",
+    "javascript"
+  ],
 }
